@@ -1,3 +1,3 @@
 FNM_ROOT=$HOME/.fnm
-export PATH="$FNM_DIR:$PATH"
+export PATH="$FNM_ROOT:$PATH"
 eval "$(fnm env)"
