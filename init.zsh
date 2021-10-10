@@ -1,8 +1,3 @@
-
-# (The below instructions are intended for common
-# shell setups. See the README for more guidance
-# if they don't apply and/or don't work for you.)
-
 # Add pyenv executable to PATH and
 # enable shims by adding the following
 # to ~/.profile and ~/.zprofile:
@@ -16,6 +11,8 @@ eval "$(pyenv init --path)"
 
 eval "$(pyenv init -)"
 
-# Make sure to restart your entire logon session
-# for changes to profile files to take effect.
+# Add pyenv virtualenv-init to your shell
+# to enable auto-activation of virtualenvs.
+# This is entirely optional but pretty useful.
 
+eval "$(pyenv virtualenv-init -)"
