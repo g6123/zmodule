@@ -8,6 +8,7 @@ See each branch for detail:
 - [poetry](https://github.com/g6123/zmodules/tree/poetry)
 - [jenv](https://github.com/g6123/zmodules/tree/jenv)
 - [cargo](https://github.com/g6123/zmodules/tree/cargo)
+- [pnpm](https://github.com/g6123/zmodules/tree/pnpm)
 
 ## Usage
 
@@ -19,4 +20,5 @@ zmodule g6123/zmodules -n pyenv -b pyenv
 zmodule g6123/zmodules -n poetry -b poetry
 zmodule g6123/zmodules -n jenv -b jenv
 zmodule g6123/zmodules -n cargo -b cargo
+zmodule g6123/zmodules -n pnpm -b pnpm
 ```
